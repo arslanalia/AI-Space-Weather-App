@@ -8,7 +8,7 @@ from datetime import datetime
 from ai_space_weather.ai_model import predict_next_solar_event, load_past_predictions
 from ai_space_weather.weather_fetch import fetch_space_weather
 from PIL import Image, ImageTk  # Only if you plan to use images for Earth, etc.
-
+# Trigger language analysis
 # ---------------------------------------
 # Dynamic Starfield for the Prediction Tab
 # ---------------------------------------
