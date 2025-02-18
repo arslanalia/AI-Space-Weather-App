@@ -1,0 +1,12 @@
+# Ensure Python files are properly detected
+*.py linguist-detectable
+*.ipynb linguist-detectable
+
+# Ignore auto-generated/minified files from being counted
+*.html linguist-vendored
+*.json linguist-vendored
+*.tex linguist-vendored
+
+# Exclude compiled code (if applicable)
+*.pyc linguist-vendored
+*.log linguist-vendored
