@@ -1,12 +1,18 @@
-# Ensure Python files are properly detected
-*.py linguist-detectable
-*.ipynb linguist-detectable
+# Ensure Python files are counted properly
+*.py linguist-detectable=true
+*.py linguist-language=Python
 
-# Ignore auto-generated/minified files from being counted
+# Jupyter Notebooks (if used)
+*.ipynb linguist-detectable=true
+*.ipynb linguist-language=Python
+
+# Ignore TeX from being counted
+*.tex linguist-detectable=false
+
+# Ignore auto-generated/minified files from stats
 *.html linguist-vendored
 *.json linguist-vendored
-*.tex linguist-vendored
 
-# Exclude compiled code (if applicable)
+# Exclude compiled and log files
 *.pyc linguist-vendored
 *.log linguist-vendored
