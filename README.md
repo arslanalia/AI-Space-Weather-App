@@ -19,7 +19,7 @@ Graphical User Interface: Displays space weather events and AI predictions in an
 Automated Updates: Runs periodic updates to ensure the latest space weather data is available.
 
 🎯Accuracy
-The AI model is trained on 10 years of data from NASA. The model extracts nine essential features from each event—capturing the day, hour, month, intensity, storm level, duration, and counts of CME, SEP, and IPS and then enriches this data by adding weekday and lag to create a robust 10-dimensional feature vector.
+The AI model is trained on 10 years of data from NASA. The model extracts nine essential features from each event, capturing the day, hour, month, intensity, storm level, duration, and counts of CME, SEP, and IPS and then enriches this data by adding weekday and lag to create a robust 10-dimensional feature vector.
 
 Model Accuracy:
 - Event Classification: 78%
