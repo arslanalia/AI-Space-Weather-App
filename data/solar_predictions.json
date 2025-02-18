@@ -1,0 +1,20 @@
+[
+    {
+        "predicted_class": "C-Class",
+        "estimated_days": 1,
+        "estimated_date": "2025-02-18",
+        "timestamp": "2025-02-17T07:24:09Z"
+    },
+    {
+        "predicted_class": "M-Class",
+        "estimated_days": 1,
+        "estimated_date": "2025-02-18",
+        "timestamp": "2025-02-17T10:55:06Z"
+    },
+    {
+        "predicted_class": "M-Class",
+        "estimated_days": 1,
+        "estimated_date": "2025-02-19",
+        "timestamp": "2025-02-18T09:31:39Z"
+    }
+]
