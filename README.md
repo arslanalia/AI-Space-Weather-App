@@ -18,6 +18,11 @@ Graphical User Interface: Displays space weather events and AI predictions in an
 
 Automated Updates: Runs periodic updates to ensure the latest space weather data is available.
 
+🎯Accuracy
+The AI model is trained on 10 years of data from NASA. The model extracts nine essential features from each event—capturing the day, hour, month, intensity, storm level, duration, and counts of CME, SEP, and IPS and then enriches this data by adding weekday and lag to create a robust 10-dimensional feature vector.
+Model Accuracy: 78%
+Time Prediction Error: 1.67 days
+
 In ai_space_weather/weather_fetch.py, replace the placeholder API key with your valid NASA API key:
 
 Install all requirements
@@ -51,3 +56,5 @@ To generate an executable version of the application, use:
 pyinstaller --onefile --windowed --add-data "data;data" ai_space_weather/main.py
 The executable will be created inside the dist/ directory.
 
+Video Demo of the UI
+https://youtu.be/lBa6XBLS1_Y
