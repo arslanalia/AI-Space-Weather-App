@@ -27,6 +27,7 @@ Model Accuracy:
 
 
 Technical Information:
+Scientific Explanations and API keys can be found here: https://api.nasa.gov/
 
 In ai_space_weather/weather_fetch.py, replace the placeholder API key with your valid NASA API key:
 
