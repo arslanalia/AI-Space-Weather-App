@@ -21,9 +21,12 @@ Automated Updates: Runs periodic updates to ensure the latest space weather data
 🎯Accuracy
 The AI model is trained on 10 years of data from NASA. The model extracts nine essential features from each event—capturing the day, hour, month, intensity, storm level, duration, and counts of CME, SEP, and IPS and then enriches this data by adding weekday and lag to create a robust 10-dimensional feature vector.
 
-Model Accuracy
+Model Accuracy:
 - Event Classification: 78%
 - Time Prediction Error: 1.67 days
+
+
+Technical Information:
 
 In ai_space_weather/weather_fetch.py, replace the placeholder API key with your valid NASA API key:
 
