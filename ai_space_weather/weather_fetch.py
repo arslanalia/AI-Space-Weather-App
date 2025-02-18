@@ -1,3 +1,5 @@
+# NASA API Key Required
+# Visit https://api.nasa.gov/ to get your own API key and replace "YOUR_NASA_API_KEY_HERE"
 import requests
 import json
 import datetime
@@ -11,7 +13,7 @@ NASA_SEP_API = "https://api.nasa.gov/DONKI/SEP"
 NASA_IPS_API = "https://api.nasa.gov/DONKI/IPS"
 
 # Your NASA API Key
-API_KEY = "E5pchtxhFf5EkCYU1JPbQSWwfLbwOGQWkPzHSRaU"
+API_KEY = "YOUR_NASA_API_KEY_HERE"  # Get your key from https://api.nasa.gov/
 
 DATA_FILE = "data/space_weather_data.json"
 
