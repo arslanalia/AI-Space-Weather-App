@@ -1,4 +1,4 @@
-# Ensure Python files are counted properly
+# Ensure Python files are properly detected
 *.py linguist-detectable=true
 *.py linguist-language=Python
 
@@ -8,11 +8,25 @@
 
 # Ignore TeX from being counted
 *.tex linguist-detectable=false
+*.tex linguist-vendored
 
 # Ignore auto-generated/minified files from stats
 *.html linguist-vendored
 *.json linguist-vendored
+*.md linguist-vendored  # Exclude markdown files
 
 # Exclude compiled and log files
 *.pyc linguist-vendored
 *.log linguist-vendored
+*.spec linguist-vendored  # Exclude PyInstaller spec files
+
+# Ignore build, dist, and data folders from language statistics
+data/** linguist-vendored
+dist/** linguist-vendored
+build/** linguist-vendored
+logs/** linguist-vendored
+scripts/** linguist-vendored  # Ignore script files
+
+# Exclude Windows and shell scripts
+*.sh linguist-vendored
+*.bat linguist-vendored
