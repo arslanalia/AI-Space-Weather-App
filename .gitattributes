@@ -13,19 +13,19 @@
 # Ignore auto-generated/minified files from stats
 *.html linguist-vendored
 *.json linguist-vendored
-*.md linguist-vendored  # Exclude markdown files
+*.md linguist-vendored
 
 # Exclude compiled and log files
 *.pyc linguist-vendored
 *.log linguist-vendored
-*.spec linguist-vendored  # Exclude PyInstaller spec files
+*.spec linguist-vendored
 
 # Ignore build, dist, and data folders from language statistics
 data/** linguist-vendored
 dist/** linguist-vendored
 build/** linguist-vendored
 logs/** linguist-vendored
-scripts/** linguist-vendored  # Ignore script files
+scripts/** linguist-vendored
 
 # Exclude Windows and shell scripts
 *.sh linguist-vendored
